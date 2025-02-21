@@ -30,10 +30,3 @@ export function middleware(request) {
     );
   }
 }
-
-export const config = {
-  matcher: [
-    // Skip all the Internal Paths (_next, api, assets)
-    "/((?!_next).*)",
-  ],
-};

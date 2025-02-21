@@ -240,3 +240,13 @@ const photos = [
     likes: 100,
   },
 ];
+
+const getAllPhoto = () => {
+  return photos;
+};
+
+const getPhotoByid = (id) => {
+  return photos.find((photo) => photo.id === id);
+};
+
+export { getAllPhoto, getPhotoByid };
